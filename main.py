@@ -11,7 +11,6 @@ CONFIG_FILE_PATH = DATADIR / 'config.json'
 SOURCE_FILE_PATH = INDIR / 'tables' / 'input.csv'
 RESULT_FILE_PATH = OUTDIR / 'tables' / 'output.csv'
 
-
 with open(CONFIG_FILE_PATH) as f:
     cfg = json.load(f)
 
