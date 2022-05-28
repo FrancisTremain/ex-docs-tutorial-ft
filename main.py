@@ -1,8 +1,9 @@
+import os
 import csv
 import json
 from pathlib import Path
 
-DATADIR = Path('data/')
+DATADIR = os.getenv('KBC_DATADIR')
 
 INDIR = DATADIR / 'in'
 OUTDIR = DATADIR / 'out'
